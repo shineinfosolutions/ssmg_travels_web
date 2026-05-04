@@ -12,6 +12,24 @@
 </script>
 	<!-- Event snippet for Page view conversion page --> <script> gtag('event', 'conversion', { 'send_to': 'AW-17083557755/8OdbCM7snaccEPvOidI_', 'value': 1.0, 'currency': 'INR' }); </script>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<!-- Event snippet for Contact conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17083557755/b0onCPOInqccEPvOidI_',
+      'value': 1.0,
+      'currency': 'INR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
 
 <head>
     <meta charset="utf-8" />
