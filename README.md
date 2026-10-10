@@ -15,7 +15,7 @@ SSMG Travels is a trusted travel agency and tour operator based in Gorakhpur, Ut
 - Schema.org JSON-LD Structured Data (TravelAgency, WebSite, Breadcrumbs, TouristTrip, FAQPage)
 - Core SEO files included:
   - `robots.txt`
-  - `sitemap.xml`
+  - `sitemap.xml`,
   - `manifest.json`
   - `llms.txt` / `llm.txt`
   - `favicon.ico`
